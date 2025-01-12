@@ -9,7 +9,7 @@ class Main {
         Random random = new Random();
         int range = 1000000;
         for (int i = 0; i < 1000; i++) {
-            vet.add(random.nextInt(range)/2);
+            vet.add(random.nextInt(range));
         }
 
         System.out.println(" === 1,000 numbers ===");
@@ -28,7 +28,7 @@ class Main {
 
 
         for (int i = 0; i < 9000; i++) {
-            vet.add(random.nextInt(range)/2);
+            vet.add(random.nextInt(range));
         }
 
         System.out.println(" === 10,000 numbers ===");
@@ -47,7 +47,7 @@ class Main {
 
 
         for (int i = 0; i < 90000; i++) {
-            vet.add(random.nextInt(range)/2);
+            vet.add(random.nextInt(range));
         }
 
         System.out.println(" === 100,000 numbers ===");
